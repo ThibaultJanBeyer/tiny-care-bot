@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -17,7 +17,6 @@ import {
 } from 'react-native';
 
 import {
-  Header,
   LearnMoreLinks,
   Colors,
   DebugInstructions,
@@ -27,18 +26,15 @@ import {
 import { pushNotifications } from './src/services';
 pushNotifications.configure();
 setTimeout(() => {
-  pushNotifications.test();
+  // pushNotifications.test();
 }, 5000);
 
 const App = () => {
   return (
     <Fragment>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar hidden={true} />
       <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
+        <ScrollView contentInsetAdjustmentBehavior="automatic">
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
@@ -79,9 +75,6 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
-  },
   engine: {
     position: 'absolute',
     right: 0,
