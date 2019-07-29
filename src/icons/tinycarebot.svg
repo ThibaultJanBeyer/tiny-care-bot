@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 672 792">
+	<g fill="none" stroke="#fff" stroke-miterlimit="10">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M252 332c-3 3-6 8-6 13 0 16-1 40 1 66 2 21-4 49-9 49-14-2-51-112 14-128zM259 328z"/>
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M392 366c0 63-8 181-72 182h-1-1c-51-1-67-75-71-137-2-26-1-51-1-66 0-5 2-10 6-13l6-4h122c10-20 56-107 87-79 9 7-59 97-75 117zM258 328l-6 4 6-4z"/>
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M401 243c-3 10-8 19-15 26a55 55 0 0 1-40 18h-51c-24 0-45-16-53-39v-1c3-7 7-34 1-46 3-7 7-13 12-18 10-11 24-17 40-17h51c21 0 39 12 49 29-4 14-1 37 2 44l4 4z"/>
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M243 247l-1 1c-4 8-24 16-31-7-5-36 24-46 24-46 4-1 7 2 8 6 6 12 2 39 0 46zM428 233c-5 19-20 16-27 10l-4-4c-2-7-6-30-2-44 2-5 5-9 10-9 0 0 29 10 23 47z"/>
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M235 195s-6-71 86-71 84 62 84 62M273 215s7-12 20-12c14 0 18 12 18 12M411 231s-14 19-47 21"/>
+		<ellipse cx="364" cy="253" stroke-width="6" rx="4" ry="4"/>
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M330 216s6-12 20-12c13 0 18 12 18 12"/>
+		<g stroke-linecap="round" stroke-linejoin="round">
+			<path stroke-width="3" d="M251 533v108M251 673v22"/>
+			<path stroke-width="5" d="M286 568v31M284 689v29M283 766v24"/>
+			<path stroke-width="3" d="M316 578v99M315 716v23"/>
+			<path stroke-width="5" d="M355 549v103M350 679v28"/>
+			<path stroke-width="3" d="M385 521v65M383 608v34"/>
+		</g>
+		<g stroke-linecap="round" stroke-linejoin="round">
+			<path stroke-width="3" d="M13 419a346 346 0 0 1-2-172M182 627c-54-26-99-68-131-120M195 24c34-14 72-22 111-22 169 0 305 146 305 327 0 130-71 242-173 295"/>
+			<path stroke-width="6" d="M592 91a399 399 0 0 1 51 381M147 518c-21-21-39-46-53-74M70 355l-1-27c0-122 80-224 187-249"/>
+		</g>
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M352 378v29h-20v20h-29v-20h-20v-29h20v-20h29v20z"/>
+		<path stroke-linecap="round" stroke-linejoin="round" d="M384 382s0 136-51 153"/>
+	</g>
+	<path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M346 382v19M325 362v14M325 408v16M458 249s4 4 1 10l-32 48M240 390s4 45-3 61M414 201s16 14 9 32M238 204s6 29-1 39"/>
+</svg>
