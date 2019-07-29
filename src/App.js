@@ -3,10 +3,7 @@ import Router from './config/Router';
 import { SafeAreaView, StyleSheet, StatusBar } from 'react-native';
 import { pushNotifications } from './services';
 pushNotifications.configure();
-
-setTimeout(() => {
-  pushNotifications.test();
-}, 5000);
+pushNotifications.test();
 
 const styles = StyleSheet.create({
   body: {

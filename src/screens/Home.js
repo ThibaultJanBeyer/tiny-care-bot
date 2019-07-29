@@ -52,7 +52,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   image: {
-    marginTop: dimensions.height / -5,
     width: imageWidth,
     height: imageHeight,
   },
@@ -76,6 +75,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   highlight: {
-    fontWeight: '700',
+    color: '#0f0',
   },
 });
