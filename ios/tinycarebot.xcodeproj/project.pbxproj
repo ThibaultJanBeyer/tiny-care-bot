@@ -313,7 +313,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -717,6 +717,10 @@
 					"\"${PODS_ROOT}/Headers/Public/glog\"",
 					"\"${PODS_ROOT}/Headers/Public/yoga\"",
 					"\"$(SRCROOT)/../node_modules/react-native-push-notification\"",
+					"\"$(SRCROOT)/../node_modules/@react-native-community/push-notification-ios\"",
+					"\"$(SRCROOT)/../node_modules/@react-native-community\"",
+					"\"$(SRCROOT)/../node_modules/react-native/React\"",
+					"\"$(SRCROOT)/../node_modules/react-native-push-notification\"",
 				);
 				INFOPLIST_FILE = tinycarebot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -762,6 +766,10 @@
 					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
 					"\"${PODS_ROOT}/Headers/Public/glog\"",
 					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"\"$(SRCROOT)/../node_modules/react-native-push-notification\"",
+					"\"$(SRCROOT)/../node_modules/@react-native-community/push-notification-ios\"",
+					"\"$(SRCROOT)/../node_modules/@react-native-community\"",
+					"\"$(SRCROOT)/../node_modules/react-native/React\"",
 					"\"$(SRCROOT)/../node_modules/react-native-push-notification\"",
 				);
 				INFOPLIST_FILE = tinycarebot/Info.plist;
@@ -891,6 +899,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -944,6 +953,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
