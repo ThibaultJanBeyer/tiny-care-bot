@@ -16,7 +16,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-import { pushNotifications } from './src/services';
+import { pushNotifications } from './services';
 pushNotifications.configure();
 setTimeout(() => {
   pushNotifications.test();
