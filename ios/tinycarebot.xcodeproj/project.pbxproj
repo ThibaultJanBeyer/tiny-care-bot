@@ -18,6 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* tinycarebotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* tinycarebotTests.m */; };
 		3645103422EDF9B5006471BE /* libRCTPushNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3645C21222EDD02400F533A8 /* libRCTPushNotification.a */; };
+		36E4D2E222EF3365003D5CC5 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E4D2DF22EF335D003D5CC5 /* libRNGestureHandler.a */; };
 		6EEEA2466FC0D6AF078B099D /* libPods-tinycarebot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AD0CAC5D412F34A48DD86E /* libPods-tinycarebot.a */; };
 		B4A5540DC2346502A0E0A4F5 /* libPods-tinycarebot-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 407DDAAE284CBA386D0EC5E2 /* libPods-tinycarebot-tvOSTests.a */; };
 		FF8435F4D9C5194951D61672 /* libPods-tinycarebot-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76236C7252C1E8F33EFD01E /* libPods-tinycarebot-tvOS.a */; };
@@ -52,6 +53,20 @@
 			remoteGlobalIDString = 3D05745F1DE6004600184BB4;
 			remoteInfo = "RCTPushNotification-tvOS";
 		};
+		36E4D2DE22EF335D003D5CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E4D2D722EF335D003D5CC5 /* RNGestureHandler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNGestureHandler;
+		};
+		36E4D2E022EF335D003D5CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E4D2D722EF335D003D5CC5 /* RNGestureHandler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5C32A36220C603B000FFB8D;
+			remoteInfo = "RNGestureHandler-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +87,7 @@
 		2D02E4901E0B4A5D006451C7 /* tinycarebot-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tinycarebot-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3645103622EDFA34006471BE /* tinycarebot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = tinycarebot.entitlements; path = tinycarebot/tinycarebot.entitlements; sourceTree = "<group>"; };
 		3645C20C22EDD02400F533A8 /* RCTPushNotification.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTPushNotification.xcodeproj; path = "../node_modules/react-native/Libraries/PushNotificationIOS/RCTPushNotification.xcodeproj"; sourceTree = "<group>"; };
+		36E4D2D722EF335D003D5CC5 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
 		407DDAAE284CBA386D0EC5E2 /* libPods-tinycarebot-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tinycarebot-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AD0CAC5D412F34A48DD86E /* libPods-tinycarebot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tinycarebot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D06C6D480F46F8B9C9589B /* Pods-tinycarebot-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinycarebot-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-tinycarebot-tvOS/Pods-tinycarebot-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E4D2E222EF3365003D5CC5 /* libRNGestureHandler.a in Frameworks */,
 				3645103422EDF9B5006471BE /* libRCTPushNotification.a in Frameworks */,
 				6EEEA2466FC0D6AF078B099D /* libPods-tinycarebot.a in Frameworks */,
 			);
@@ -177,9 +194,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		36E4D2D822EF335D003D5CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36E4D2DF22EF335D003D5CC5 /* libRNGestureHandler.a */,
+				36E4D2E122EF335D003D5CC5 /* libRNGestureHandler-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				36E4D2D722EF335D003D5CC5 /* RNGestureHandler.xcodeproj */,
 				3645C20C22EDD02400F533A8 /* RCTPushNotification.xcodeproj */,
 			);
 			name = Libraries;
@@ -359,6 +386,10 @@
 					ProductGroup = 3645C20D22EDD02400F533A8 /* Products */;
 					ProjectRef = 3645C20C22EDD02400F533A8 /* RCTPushNotification.xcodeproj */;
 				},
+				{
+					ProductGroup = 36E4D2D822EF335D003D5CC5 /* Products */;
+					ProjectRef = 36E4D2D722EF335D003D5CC5 /* RNGestureHandler.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -383,6 +414,20 @@
 			fileType = archive.ar;
 			path = "libRCTPushNotification-tvOS.a";
 			remoteRef = 3645C21322EDD02400F533A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36E4D2DF22EF335D003D5CC5 /* libRNGestureHandler.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGestureHandler.a;
+			remoteRef = 36E4D2DE22EF335D003D5CC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36E4D2E122EF335D003D5CC5 /* libRNGestureHandler-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNGestureHandler-tvOS.a";
+			remoteRef = 36E4D2E022EF335D003D5CC5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -650,6 +695,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = tinycarebotTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -670,6 +716,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = tinycarebotTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -798,6 +845,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "tinycarebot-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -826,6 +874,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "tinycarebot-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -853,6 +902,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "tinycarebot-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -880,6 +930,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "tinycarebot-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
