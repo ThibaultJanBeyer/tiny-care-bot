@@ -32,7 +32,7 @@ export class Home extends Component {
           </Text>
         </View>
         <View style={styles.sectionContainer}>
-          <Button title="Settings" onPress={() => navigate('Settings')} />
+          {/* <Button title="Settings" onPress={() => navigate('Settings')} /> */}
         </View>
       </View>
     );
@@ -40,7 +40,7 @@ export class Home extends Component {
 }
 
 const dimensions = Dimensions.get('window');
-const imageWidth = dimensions.width - 250;
+const imageWidth = dimensions.width - 200;
 const imageHeight = Math.round(imageWidth / 0.8427);
 
 const styles = StyleSheet.create({
@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   image: {
+    marginTop: dimensions.height / -5,
     width: imageWidth,
     height: imageHeight,
   },
@@ -71,7 +72,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
     fontSize: 18,
     fontWeight: '400',
-    color: '#444',
+    color: '#888',
     textAlign: 'center',
   },
   highlight: {
