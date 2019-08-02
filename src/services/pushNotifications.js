@@ -51,7 +51,7 @@ export const configure = () => {
 export const test = () => {
   PushNotification.localNotificationSchedule({
     // Scheduled
-    date: new Date(Date.now() + 5 * 1000), // in 60 secs
+    date: new Date(Date.now() + 60 * 5 * 1000), // in 60 secs
 
     /* iOS and Android properties */
     title: 'My Notification Title', // (optional, for iOS this is only used in apple watch, the title will be the app name on other iOS devices)
